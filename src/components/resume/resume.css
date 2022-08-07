@@ -1,0 +1,184 @@
+
+
+.resume_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10vh;
+    transition: 10s ease-in-out linear;
+}
+.resume_header{
+    margin-bottom: 20px;
+}
+.resume_header hr{
+    width: 30%;
+    margin: auto;
+}
+.hr_bar{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+}
+
+.resume_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+}
+
+.details_left ul{
+    list-style-type: none;
+    margin: 15px 15px;
+    line-height: 2;
+    padding: 5px 10px;
+    text-align: justify;
+    box-shadow: 1px 0px 1px 1px #333;
+}
+
+.details_left_li{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 14px 2px;
+    /* padding-left: 10px; */
+}
+.details_left_li.project_focus{
+    background-color: rgba(23, 8, 29, 0.961);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: rgb(222, 222, 222);
+    
+}
+/* .details_left_li:hover{
+    background-color: rgba(23, 8, 29, 0.961);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: rgb(222, 222, 222);
+    
+} */
+
+
+
+/* -----------------------------education----------------------- */
+.details_list_item{
+    margin-bottom: 20px;
+}
+.details_info{
+    text-align: justify;
+}
+.details_info h3{
+    text-transform: capitalize;
+    color: rgb(219, 75, 23);
+}
+.details_info span{
+    text-transform: capitalize;
+    color: #333;
+}
+.resume_btn{
+    text-align: center;
+    margin: 10px 0;
+    background-color: orangered;
+    border-radius: 20px;
+    width: 30%;
+    color: rgb(222, 222, 220);
+    padding: 5px;
+}
+
+/* -----------------------------skills----------------------- */
+.skills_list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 15px;
+}
+.bar_container{
+    width: 90%;
+    height: 15px;
+    background-color: orangered;   
+}
+.javascript{
+    width: 50%;
+    height: 15px;
+    background-color: rgb(24, 15, 12); 
+}
+.react_native{
+    width: 80%;
+    height: 15px;
+    background-color: rgb(24, 15, 12); 
+}
+.node{
+    width: 80%;
+    height: 15px;
+    background-color: rgb(24, 15, 12); 
+}
+.css{
+    width: 95%;
+    height: 15px;
+    background-color: rgb(24, 15, 12); 
+}
+.react_js{
+    width: 90%;
+    height: 15px;
+    background-color: rgb(24, 15, 12); 
+}
+.express{
+    width: 70%;
+    height: 15px;
+    background-color: rgb(24, 15, 12); 
+}
+.mongo{
+    width: 80%;
+    height: 15px;
+    background-color: rgb(24, 15, 12); 
+}
+.html{
+    width:95%;
+    height: 15px;
+    background-color: rgb(24, 15, 12); 
+}
+
+/* -----------------------------skills----------------------- */
+.projects{
+    overflow-y: scroll;
+    max-height: 230px;
+}
+.details_list_item{
+    margin-bottom:23px;
+}
+::-webkit-scrollbar{
+    display: none;
+    background-color: red;
+}
+
+/* ----------------------------------media query--------------------------------- */
+@media screen and (min-width:800px){
+    .details_list_item{
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 35px;
+    }
+    .details_left{
+        padding: 10px 15px;
+    }
+    .details_left ul{
+        padding: 10px 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

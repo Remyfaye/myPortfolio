@@ -1,0 +1,116 @@
+
+.home_content{
+    margin-top: 6vh;
+    display: flex;
+    align-items: center;
+    margin: 12vh;
+    background-color: #f9f9f9;
+    gap: 4vh;
+}
+
+.home_details{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: 'Poppins SemiBold';
+}
+.home_details_role{
+    text-align: start;
+    line-height: 1.9;
+}
+.details_header{
+    font-size: 25px;
+    color: black;
+}
+.colz{
+    display: flex;
+    
+    flex-direction: column;
+}
+.colz a{
+    font-size: 35px;
+    margin: 30px;
+    
+}
+.home_top{
+    display: flex;
+    align-items: center;
+
+}
+.static_role{
+    line-height: 1.5;
+}
+/* .home_btn.dark{
+    background-color: rgba(23, 8, 29, 0.961);
+    color: #e9daed;
+} */
+.home_btn{
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    border: none;
+    color: #e9daed;
+    border-radius: 10px;
+    /* transition: 10s ease-in-out linear; */
+    background-color: orangered;
+}
+.profile_picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0 #e5d5ea;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.profile_picture_background{
+    height: 92%;
+    width: 92%;
+    background-image: url('../../assets/profile/1.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile_picture_background:hover{
+    transform: scale(1.o7);
+    transition: 1s ease-out;
+}
+
+
+/* -----------------------------media query--------------------------------- */
+@media screen and (max-width:800px){
+    .home_wrapper{
+        width: 95%;
+        background-color: #f9f9f9;
+        margin-bottom: 8vh;
+        margin-top: 10vh;
+    }
+    .home_content{
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        margin: 10px;
+        background-color: #f9f9f9;
+    }
+    /* .profile_picture{
+        position: absolute;
+    } */
+    .home_details{
+        top: 40vh;
+        
+        margin: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

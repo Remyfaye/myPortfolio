@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Redux Pro', sans-serif;
+}
+
+
+.about_container{
+ 
+  background-color: #580101;
+}
+body{
+  text-align: center;
+  background-color: #f9f9f9;
+  /* background-color: #dbd2d252; */
+  min-height: 100vh;
+  color: rgb(79, 85, 90);
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
