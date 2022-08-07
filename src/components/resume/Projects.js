@@ -32,7 +32,7 @@ const Projects = () => {
                 <span>frontend design of a social media web app </span>
             </div>
 
-            <div className='resume_btn'><a href='https://remyfaye.github.io/Social-Media-Web-App/'></a> view</div>
+            <div className='resume_btn'><a href='https://remyfaye.github.io/Social-Media-Web-App/'>view</a></div>
 
         </div>     
 

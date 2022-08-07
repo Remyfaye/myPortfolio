@@ -34,6 +34,11 @@
     padding: 10px;
     text-align: justify;
 }
+.contact_top span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .contact_top h2{
     padding: 10px 0;
     text-transform: capitalize;

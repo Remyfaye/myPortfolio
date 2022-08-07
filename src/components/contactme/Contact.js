@@ -27,7 +27,10 @@ const Contact = () => {
       <div className='contact_wrapper'>
 
         <div className='contact_top'>
-            <h2> get in touch</h2>
+            <span><h2> get in touch</h2>
+            <a href='https://wa.link/qapar4'>
+              <i class="uil uil-whatsapp"></i>
+            </a></span>
             <div className='icons'></div>
             <h4>send your email here</h4>
         </div>

@@ -68,7 +68,7 @@ export default function Home() {
                         </span>
 
                         <span className='static_role'>
-                                high level experience in web design and development knowledge, producing quality work
+                                A proffesional web and mobile app web developer with high level experience in web design and development knowledge, producing quality work at lightening speed. 
                             </span>
 
                     </div>  
